@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>캐시워크 랜딩페이지</title>
+  <!-- 웹 폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* 초기화 및 기본 스타일 */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      text-align: center;
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 300;
+    }
+    h1 {
+      font-weight: 300;
+      margin-bottom: 25px;
+      font-size: 50px;
+    }
+    h2 {
+      font-weight: 500;
+      font-size: 36px;
+      color: #5e5050;
+      margin-bottom: 38px;
+    }
+    p {
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 49px;
+    }
+
+    section {
+      padding-top: 70px;
+      padding-bottom: 30px;
+    }
+
+    /* 메인 스타일 */
+    .accent {
+      font-weight: 400;
+    }
+
+    #section1 {
+      background-color: #ffde45;
+      color: #5e5050;
+    }
+    #section2 {
+      background-color: #9b59b6;
+      color: white;
+      padding-bottom: 0;
+    }
+    #section2 img {
+      vertical-align: bottom;
+    }
+    #section3 {
+      background-color: #e74c3c;
+      color: white;
+    }
+    footer {
+      background-color: #ffde45;
+      padding-top: 54px;
+      padding-bottom: 54px;
+    }
+
+    .app-link-btn img {
+      width: 203px;
+    }
+
+    .app-link-btn[href*="cashwalk"] {
+      /* 첫번째 버튼만 여백 밀기-속성선택자 활용 */
+      margin-right: 16px;
+      /* border: 2px solid red; */
+    }
+
+    /* 
+      수정: CSS를 외부 스타일로 수정하시오. 
+      파일명: style.css
+    */
+  </style>
+</head>
+<body>
+  <section id="section1">
+    <h1>걷기만 해도 <span class="accent">돈 버는 어플</span></h1>
+    <p>어플 설치 후 내가 걷기만 해도 돈이 되는 신기한   만보기<br>현금처럼 사용 가능한 포인트를 매일 드려요~</p>
+    <img style="width:449px;" src="./images/fitness.svg" alt="fitness">
+  </section>
+  <section id="section2">
+    <h1>돈버는 만보기</h1>
+    <p>설치만 해놓고 걸으면 걸을 수록<br>
+      돈이 쌓이는 신기한 만보기!</p>
+    <img style="width:208px;" src="./images/app.png" alt="app title">
+  </section>
+  <section id="section3">
+    <h1>뽑기</h1>
+    <p>365일 24시간 치킨부터 TV까지<br>
+      으리으리한 상품들이 팡팡!</p>
+    <img style="width:362px;" src="./images/gift.svg" alt="gift box">
+  </section>
+  <footer>
+    <h2>캐시워크를 지금 다운로드 하세요!</h2>
+    <a href="https://play.google.com/store/apps/details?id=com.cashwalk.cashwalk&hl=ko" class="app-link-btn"><img src="./images/googleplay.png" alt="googleplay"></a>
+    <a href="https://apps.apple.com/kr/app/%EC%BA%90%EC%8B%9C%EC%9B%8C%ED%81%AC-%EB%8F%88-%EB%B2%84%EB%8A%94-%EB%A7%8C%EB%B3%B4%EA%B8%B0/id1220307907" class="app-link-btn"><img src="./images/appstore.png" alt="appstore"></a>
+  </footer>
+</body>
+</html>
